@@ -5,19 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CrowdFund</title>
     <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="stylesheet" href="./Styles/components/buttons.css" />
     <script src="JS/script.js" defer></script>
   </head>
   <body>
     <div class="container">
-      <h1>CrowdFund</h1>
-      <p>
-        Welcome to CrowdFund, the platform that connects creators with
-        supporters to bring innovative projects to life. Whether you're an
-        artist, entrepreneur, or community organizer, CrowdFund provides the
-        tools and resources you need to launch your campaign and reach your
-        funding goals.
-      </p>
-      <p>Join our community today and start turning your ideas into reality!</p>
+      <div class="navbar">
+        <h2 class="logo">CrowdFund</h2>
+
+        <ul class="nav-links">
+          <li>
+            <button id="theme-toggle-button">
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </li>
+          <li>
+            <button onclick="window.location.href='Pages/Login.html'" class="btn btn-default btn-size-default">Sign In</button>
+          </li>
+          <li>
+            <button onclick="window.location.href='Pages/Register.html'" class="btn btn-outline btn-size-default">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero">
+        <h1>FUND THE FUTURE</h1>
+        <p>
+          Join thousands of creators and backers bringing innovative ideas to
+          life. Start a campaign or support projects you believe in.
+        </p>
+
+        <div class="heroButtons">
+          <button onclick="window.location.href='Pages/Register.html'" class="btn btn-default btn-size-lg">Get Started →</button>
+          <button onclick="window.location.href='Pages/Campaigns.html'" class="btn btn-outline btn-size-lg">Explore Campaigns</button>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <i class="fa-solid fa-bullseye"></i>
+          <h3>3</h3>
+          <p>ACTIVE CAMPAIGNS</p>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <h3>$100k+</h3>
+          <p>TOTAL RAISED</p>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-user-group"></i>
+          <h3>100+</h3>
+          <p>Backers</p>
+        </div>
+      </div>
+
+      <div class="featured-Campaigns">
+        
+        <div class="section-head">
+          <h2>Featured Campaigns</h2>
+          <p>Discover projects making a difference</p>
+        </div>
+
+        <div id="campaigns-cards"></div>
+
+        <button onclick="window.location.href = 'Pages/Campaigns.html'" class="btn btn-outline btn-size-default" id="view-all-campaigns">
+          View All Campaigns
+        </button>
+        </div>
+
+        
+      </div>
     </div>
   </body>
 </html>

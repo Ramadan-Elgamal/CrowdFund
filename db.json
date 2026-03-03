@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@test.com",
+      "password": "password123",
+      "role": "admin",
+      "isActive": true
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "title": "Save the Rainforest",
+      "description": "Help us protect the rainforest and its biodiversity.",
+      "image": "https://audio-agency.co.uk/cdn/shop/articles/BLOG_-_Save_the_Rainforest-4.png?v=1677837044&width=1100",
+      "goalAmount": 50000,
+      "currentAmount": 15000,
+      "endDate": "2024-12-31",
+      "tag": "Environment",
+      "creatorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Tech for Education",
+      "description": "Providing technology to underprivileged schools and students who can't afford it.",
+      "image": "https://novakdjokovicfoundation.org/wp-content/uploads/2023/02/education-elementary-school-learning-technology-and-people-concept-close-up-of-school-kids-scaled.jpg",
+      "goalAmount": 30000,
+      "currentAmount": 12000,
+      "endDate": "2024-11-30",
+      "tag": "Education",
+      "creatorId": 1
+    },
+    {
+      "id": 3,
+      "title": "Clean Water Initiative",
+      "description": "Bringing clean water to communities in need and poor countries in Africa.",
+      "image": "https://pmedia.launchgood.com/25464/anushah_clean_water_initiative_project%252F25337%252Fclean_water_initiative_HCI-LG-Clean%2BWater%2BInitiative-700x525-700x525.png",
+      "goalAmount": 40000,
+      "currentAmount": 25000,
+      "endDate": "2024-10-31",
+      "tag": "Health",
+      "creatorId": 1
+    }
+  ],
+  "pledges": []
+}
